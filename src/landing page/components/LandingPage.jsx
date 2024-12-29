@@ -44,7 +44,7 @@ const LandingPage = () => {
               />
               <div>
                 <a
-                  href="../../../public/assets/Resume.pdf"
+                  href="vishnu-portfolio/public/assets/Resume.pdf"
                   download="Resume.pdf"
                   className="flex items-center gap-x-2 text-[12px] font-bold text-[#808080] transition-all hover:text-white sm:text-[16px]"
                 >
