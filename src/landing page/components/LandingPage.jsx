@@ -3,6 +3,7 @@ import Button from "../../navigation/component/Button";
 import downloadIcon from "../assets/Frame.svg";
 import { motion } from "framer-motion";
 import { PopupContext } from "../../context/PopupContext";
+import resumeUrl from "../assets/Resume.pdf";
 
 const LandingPage = () => {
   const { setPopup } = useContext(PopupContext);
@@ -44,7 +45,7 @@ const LandingPage = () => {
               />
               <div>
                 <a
-                  href="vishnu-portfolio/public/assets/Resume.pdf"
+                  href={resumeUrl}
                   download="Resume.pdf"
                   className="flex items-center gap-x-2 text-[12px] font-bold text-[#808080] transition-all hover:text-white sm:text-[16px]"
                 >
