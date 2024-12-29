@@ -21,9 +21,10 @@ const LandingPage = () => {
             </h2>
             <motion.h1
               className="my-3 text-3xl font-bold text-white sm:my-6 sm:text-5xl md:text-7xl"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1.5, ease: "easeInOut" }}
+              style={{ overflow: "hidden", whiteSpace: "nowrap" }}
+              initial={{ width: 0 }}
+              animate={{ width: "100%" }}
+              transition={{ duration: 2, ease: "easeInOut" }}
             >
               Frontend Developer
             </motion.h1>
