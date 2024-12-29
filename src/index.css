@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+/* Navigation button transition */
+
+.underline-transition {
+  position: relative;
+  padding-block: 5px;
+}
+
+.underline-transition::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #079211;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.underline-transition:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+/* Button transition */
+button {
+  z-index: 1;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  padding: 0.5em 1em;
+  outline: none;
+  background-color: transparent;
+}
+
+button::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #079211;
+  transform-origin: center bottom;
+  transform: scaleY(0);
+  transition: transform 0.25s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:hover::before {
+  transform-origin: center top;
+  transform: scaleY(1);
+}
+
+.instagram:hover {
+  color: #f9ce34;
+  background-image: linear-gradient(
+    45deg,
+    #f9ce34 31%,
+    #ee2a7b 43%,
+    #6228d7 76%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(43, 43, 43); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #079211; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #079211; /* creates padding around scroll thumb */
+}
