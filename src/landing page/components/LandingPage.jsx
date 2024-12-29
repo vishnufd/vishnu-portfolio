@@ -17,14 +17,13 @@ const LandingPage = () => {
         >
           <section className="my-32 max-w-[770px] lg:my-0">
             <h2 className="text-2xl font-bold text-[#079211] md:text-3xl">
-              Hello, I'm Vishnu anil
+              Hello, I'm Vishnu Anil
             </h2>
             <motion.h1
               className="my-3 text-3xl font-bold text-white sm:my-6 sm:text-5xl md:text-7xl"
-              style={{ overflow: "hidden", whiteSpace: "nowrap" }}
-              initial={{ width: 0 }}
-              animate={{ width: "100%" }}
-              transition={{ duration: 2, ease: "easeInOut" }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 1.5, ease: "easeInOut" }}
             >
               Frontend Developer
             </motion.h1>
@@ -46,10 +45,10 @@ const LandingPage = () => {
               <div>
                 <a
                   href={resumeUrl}
-                  download="Resume.pdf"
+                  download="Vishnu_Resume.pdf"
                   className="flex items-center gap-x-2 text-[12px] font-bold text-[#808080] transition-all hover:text-white sm:text-[16px]"
                 >
-                  <img src={downloadIcon} alt="download CV" />
+                  <img src={downloadIcon} alt="Download CV" />
                   Download CV
                 </a>
               </div>
