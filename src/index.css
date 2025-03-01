@@ -80,6 +80,8 @@ button:hover::before {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* scroll bar */
 body::-webkit-scrollbar {
   width: 5px; /* width of the entire scrollbar */
 }
@@ -92,4 +94,8 @@ body::-webkit-scrollbar-thumb {
   background-color: #079211; /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
   border: 3px solid #079211; /* creates padding around scroll thumb */
+}
+
+.scroll-bar::-webkit-scrollbar {
+  width: 2px;
 }

@@ -33,7 +33,7 @@ const Works = () => {
             </a>
           </div>
         </div>
-        <section className="my-20 flex flex-wrap items-start justify-center gap-x-10 gap-y-5 lg:justify-between">
+        <section className="my-20 flex flex-wrap items-start justify-center gap-x-10 gap-y-10 lg:justify-between">
           <Card
             projectImage={todoProjectImage}
             projectAlt="todo list project image"
