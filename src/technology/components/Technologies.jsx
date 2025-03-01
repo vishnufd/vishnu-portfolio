@@ -5,7 +5,7 @@ import JSLogo from "../assets/javascript-1.svg";
 import TailwindLogo from "../assets/tailwind-css-2.svg";
 import ReactLogo from "../assets/react-2.svg";
 import GitLogo from "../assets/git.svg";
-import GitHubLogo from "../assets/gitHub.svg";
+import ReduxLogo from "../assets/redux-logo.svg";
 import SkillCard from "./SkillCard";
 
 const Technologies = () => {
@@ -40,19 +40,19 @@ const Technologies = () => {
           textColor="text-[#06b5d4]"
         />
         <SkillCard
-          technologyName="React JS"
+          technologyName="React"
           technologyLogo={ReactLogo}
           textColor="text-[#61d9fa]"
+        />
+        <SkillCard
+          technologyName="Redux"
+          technologyLogo={ReduxLogo}
+          textColor="text-[#764abd]"
         />
         <SkillCard
           technologyName="Git"
           technologyLogo={GitLogo}
           textColor="text-[#f03a2e]"
-        />
-        <SkillCard
-          technologyName="Git Hub"
-          technologyLogo={GitHubLogo}
-          textColor="text-white"
         />
       </section>
     </section>
