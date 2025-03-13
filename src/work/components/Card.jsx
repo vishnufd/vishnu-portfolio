@@ -24,7 +24,7 @@ const Card = ({
           href={projectLink}
           className="font-semibold text-[#079211] hover:text-[#07921093]"
         >
-          See project{" "}
+          Live Demo{" "}
           <span className="text-[20px] font-bold text-[#079211]">&#8599;</span>
         </a>
       </div>

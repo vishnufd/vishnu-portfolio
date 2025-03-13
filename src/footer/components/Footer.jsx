@@ -6,9 +6,9 @@ import Instagramlogo from "../assets/insta.svg";
 const Footer = () => {
   return (
     <footer className="flow-root w-full bg-[#050507] text-white">
-      <section className="mt-10 flex max-w-full items-center justify-between px-5 sm:mt-24 md:px-16 lg:px-28">
+      <section className="mt-10 flex flex-col items-center px-5 sm:mt-24 md:px-16 lg:px-28">
         <section className="w-full">
-          <div className="flex w-full flex-col items-start justify-between sm:flex-row">
+          <div className="spacial flex w-full flex-col items-start justify-between">
             <div className="mb-10 sm:mb-0">
               <h2 className="text-2xl font-bold">
                 Vishnu anil<span className="text-[#079211]">.</span>
@@ -16,20 +16,56 @@ const Footer = () => {
             </div>
             <div className="flex flex-col gap-y-10 sm:flex-row sm:gap-x-20">
               <div>
-                <ul>
-                  <li>
-                    <h5 className="text-[18px] font-semibold">Information</h5>
-                  </li>
-                  <li className="mt-5 text-[#808080]">
-                    <p>+91 6238840485</p>
-                  </li>
-                  <li className="mt-2 text-[#808080]">
-                    <p>vishnuanilfrontend@gmail.com</p>
-                  </li>
-                  <li className="mt-2 text-[#808080]">
-                    <p>Kochi, Kerala, India</p>
-                  </li>
-                </ul>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>
+                        {" "}
+                        <h5 className="mb-5 text-[18px] font-semibold">
+                          Information
+                        </h5>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <label>📞 Phone&nbsp;&nbsp;&nbsp;</label>
+                      </td>
+                      <td>
+                        <a
+                          className="text-[#808080] hover:text-white/80"
+                          href="tel:+916238840485"
+                        >
+                          +91 6238840485
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label>✉️ Email&nbsp;&nbsp;&nbsp;</label>
+                      </td>
+                      <td>
+                        <a
+                          className="text-[#808080] hover:text-white/80"
+                          href="mailto:vishnuanilfrontend@gmail.com"
+                        >
+                          vishnuanilfrontend@gmail.com
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label>📍 Location&nbsp;&nbsp;&nbsp;</label>
+                      </td>
+                      <td>
+                        <p className="inline-block text-[#808080]">
+                          Kochi, Kerala, India
+                        </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
               <div>
                 <ul>

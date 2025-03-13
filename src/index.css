@@ -99,3 +99,24 @@ body::-webkit-scrollbar-thumb {
 .scroll-bar::-webkit-scrollbar {
   width: 2px;
 }
+
+
+@media (min-width: 800px) {
+  .spacial {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 800px) {
+  .spacial {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .spacial {
+    align-items: start;
+    justify-content: space-between;
+  }
+}

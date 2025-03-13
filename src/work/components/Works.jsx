@@ -27,7 +27,7 @@ const Works = () => {
             >
               <Button
                 btnClass="bg-transparent py-2 px-3 md:text-[14px] text-[12px] font-bold sm:px-5 sm:py-2 border-2 border-[#079211] hover:bg-transparent"
-                btnText="View All Projects"
+                btnText="View My Works"
                 btnDivClass="my-5"
               />
             </a>

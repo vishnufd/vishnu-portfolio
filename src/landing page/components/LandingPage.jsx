@@ -17,7 +17,7 @@ const LandingPage = () => {
         >
           <section className="my-32 max-w-[770px] lg:my-0">
             <h2 className="text-2xl font-bold text-[#079211] md:text-3xl">
-              Hello, I'm Vishnu Anil
+              Hi, I'm Vishnu Anil
             </h2>
             <motion.h1
               className="my-3 text-3xl font-bold text-white sm:my-6 sm:text-5xl md:text-7xl"
@@ -29,12 +29,11 @@ const LandingPage = () => {
               Frontend Developer
             </motion.h1>
             <p className="my-4 text-[0.8rem] text-[#808080] sm:my-9 sm:text-[1rem]">
-              I am a passionate front-end developer skilled in React.js,
-              Tailwind CSS, and Git. I specialize in building responsive and
-              user-friendly web interfaces with modern tools and technologies.
-              My expertise includes creating dynamic and reusable components
-              with React, designing beautiful layouts with Tailwind CSS, and
-              collaborating effectively using version control with Git.
+              I am a Frontend Developer specializing in React and Redux. I build
+              fast, scalable, and user-friendly web applications with clean,
+              maintainable code. Passionate about performance optimization and
+              intuitive UI/UX, I turn ideas into engaging digital experiences.
+              Let's create something amazing!
             </p>
             <div className="flex items-center gap-x-5">
               <Button
