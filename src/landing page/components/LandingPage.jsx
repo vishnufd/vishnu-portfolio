@@ -20,7 +20,7 @@ const LandingPage = () => {
               Hi, I'm Vishnu Anil
             </h2>
             <motion.h1
-              className="my-3 h-20 text-3xl font-bold text-white sm:my-6 sm:text-5xl md:text-7xl"
+              className="my-3 text-3xl font-bold text-white sm:my-6 sm:text-5xl md:text-7xl"
               style={{ overflow: "hidden", whiteSpace: "nowrap" }}
               initial={{ width: 0 }}
               animate={{ width: "100%" }}
