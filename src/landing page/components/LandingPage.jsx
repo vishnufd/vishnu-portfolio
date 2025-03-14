@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { motion } from "framer-motion";
 import Button from "../../navigation/component/Button";
 import downloadIcon from "../assets/Frame.svg";
-import { PopupContext } from "../../../dist/context/PopupContext";
+import { PopupContext } from "../../context/PopupContext";
 import resumeUrl from "../assets/Resume.pdf";
 
 const LandingPage = () => {
@@ -20,7 +20,7 @@ const LandingPage = () => {
               Hi, I'm Vishnu Anil
             </h2>
             <motion.h1
-              className="my-3 text-3xl font-bold text-white sm:my-6 sm:text-5xl md:text-7xl"
+              className="my-3 h-20 text-3xl font-bold text-white sm:my-6 sm:text-5xl md:text-7xl"
               style={{ overflow: "hidden", whiteSpace: "nowrap" }}
               initial={{ width: 0 }}
               animate={{ width: "100%" }}
@@ -49,7 +49,7 @@ const LandingPage = () => {
                   className="flex items-center gap-x-2 text-[12px] font-bold text-[#808080] transition-all hover:text-white sm:text-[16px]"
                 >
                   <img src={downloadIcon} alt="Download CV" />
-                  Download CV
+                  Download Resume
                 </a>
               </div>
             </div>
