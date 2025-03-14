@@ -27,47 +27,47 @@ const Footer = () => {
                       </th>
                     </tr>
                   </thead>
-                  <tbody className="text-[14px] sm:text-[16px]">
+                  <tbody>
                     <tr>
                       <td>
-                        <label>📞 Phone</label>
+                        <label>📞 Phone&nbsp;&nbsp;&nbsp;</label>
                       </td>
                       <td>
                         <a
                           className="text-[#808080] hover:text-white/80"
                           href="tel:+916238840485"
                         >
-                          : +91 6238840485
+                          +91 6238840485
                         </a>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <label>✉️ Email</label>
+                        <label>✉️ Email&nbsp;&nbsp;&nbsp;</label>
                       </td>
                       <td>
                         <a
                           className="text-[#808080] hover:text-white/80"
                           href="mailto:vishnuanilfrontend@gmail.com"
                         >
-                          : vishnuanilfrontend@gmail.com
+                          vishnuanilfrontend@gmail.com
                         </a>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <label>📍 Location</label>
+                        <label>📍 Location&nbsp;&nbsp;&nbsp;</label>
                       </td>
                       <td>
                         <p className="inline-block text-[#808080]">
-                          : Kochi, Kerala, India
+                          Kochi, Kerala, India
                         </p>
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <div className="text-[14px] sm:text-[16px]">
+              <div>
                 <ul>
                   <li>
                     <h5 className="text-[18px] font-semibold">Social Media</h5>

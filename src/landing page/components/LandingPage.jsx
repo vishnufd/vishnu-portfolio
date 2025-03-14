@@ -7,6 +7,7 @@ import resumeUrl from "../assets/Resume.pdf";
 
 const LandingPage = () => {
   const { setPopup } = useContext(PopupContext);
+
   return (
     <>
       <main className="bg-[#0A0A0F]">
@@ -48,7 +49,7 @@ const LandingPage = () => {
                   className="flex items-center gap-x-2 text-[12px] font-bold text-[#808080] transition-all hover:text-white sm:text-[16px]"
                 >
                   <img src={downloadIcon} alt="Download CV" />
-                  Download Resume
+                  Download CV
                 </a>
               </div>
             </div>
