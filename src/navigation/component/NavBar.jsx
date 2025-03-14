@@ -6,7 +6,7 @@ import ContactForm from "../../contact/components/ContactForm";
 import Input from "./Input";
 import TextArea from "./TextArea";
 import Button from "./Button";
-import { PopupContext } from "../../context/PopupContext";
+import { PopupContext } from "../../../dist/context/PopupContext";
 
 const NavBar = ({ result, setResult }) => {
   const [isOpen, setIsOpen] = useState(false);

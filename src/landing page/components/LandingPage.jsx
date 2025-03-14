@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
+import { motion } from "framer-motion";
 import Button from "../../navigation/component/Button";
 import downloadIcon from "../assets/Frame.svg";
-import { motion } from "framer-motion";
-import { PopupContext } from "../../context/PopupContext";
+import { PopupContext } from "../../../dist/context/PopupContext";
 import resumeUrl from "../assets/Resume.pdf";
 
 const LandingPage = () => {
@@ -25,7 +25,7 @@ const LandingPage = () => {
               animate={{ width: "100%" }}
               transition={{ duration: 2, ease: "easeInOut" }}
             >
-              Frontend Developer
+              Frontend Developer.
             </motion.h1>
             <p className="my-4 text-[0.8rem] text-[#808080] sm:my-9 sm:text-[1rem]">
               I am a Frontend Developer specializing in React and Redux. I build

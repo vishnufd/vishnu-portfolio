@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Button from "../../navigation/component/Button";
-import { PopupContext } from "../../context/PopupContext";
+import { PopupContext } from "../../../dist/context/PopupContext";
 
 const Contact = () => {
   const { setPopup } = useContext(PopupContext);
