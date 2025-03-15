@@ -15,7 +15,7 @@ const Footer = () => {
               </h2>
             </div>
             <div className="flex flex-col gap-y-10 sm:flex-row sm:gap-x-20">
-              <div>
+              <div className="text-[13px] sm:text-[16px]">
                 <table>
                   <thead>
                     <tr>
@@ -67,7 +67,7 @@ const Footer = () => {
                   </tbody>
                 </table>
               </div>
-              <div>
+              <div className="text-[13px] sm:text-[16px]">
                 <ul>
                   <li>
                     <h5 className="text-[18px] font-semibold">Social Media</h5>
