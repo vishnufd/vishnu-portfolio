@@ -20,7 +20,7 @@ const Works = () => {
               Some of my favorite projects.
             </h2>
           </div>
-          <div>
+          <div> 
             <a
               target="_blank"
               href="https://github.com/vishnufd?tab=repositories"

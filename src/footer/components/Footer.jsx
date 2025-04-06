@@ -126,7 +126,7 @@ const Footer = () => {
               </p>
             </div>
             <div className="w-fit">
-              <p className="text-[14px] font-light">Copyright &copy; 2024</p>
+              <p className="text-[14px] font-light">Copyright &copy; 2025</p>
             </div>
           </div>
         </section>
