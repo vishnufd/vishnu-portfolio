@@ -3,7 +3,7 @@ import Button from "../../navigation/component/Button";
 import todoProjectImage from "../assets/todoList.png";
 import spaceProjectImage from "../assets/spaceTourism.png";
 import bookmarkProjectImage from "../assets/bookmark.png";
-import focusProjectImage from "../assets/focustoday.png";
+import weatherAppImage from "../assets/weatherApp.png";
 import Card from "./Card";
 
 const Works = () => {
@@ -20,7 +20,7 @@ const Works = () => {
               Some of my favorite projects.
             </h2>
           </div>
-          <div> 
+          <div>
             <a
               target="_blank"
               href="https://github.com/vishnufd?tab=repositories"
@@ -45,6 +45,14 @@ const Works = () => {
             technologies="React, Tailwind, Git"
           />
           <Card
+            projectImage={weatherAppImage}
+            projectAlt="weather app project image"
+            projectName="Weather App"
+            projectLink="https://vishnufd.github.io/weather-app/"
+            projectDetails="The Weather App is a responsive and modern web application built using React and styled with Tailwind CSS. It allows users to search for any city and view real-time weather information by fetching data from the OpenWeatherMap API. The app displays key weather details such as temperature, conditions, humidity, and wind speed. It features dynamic weather icons based on current conditions, along with proper error handling for invalid or empty inputs. The project uses Git for version control and is designed with a clean UI that works smoothly across all devices."
+            technologies="React, Tailwind, CSS, Git"
+          />
+          <Card
             projectImage={spaceProjectImage}
             projectAlt="space tourism project image"
             projectName="Space Tourism"
@@ -59,14 +67,6 @@ const Works = () => {
             projectLink="https://vishnufd.github.io/bookmark-landing-page/"
             projectDetails="The 'Bookmark Landing Page' is a responsive website designed to promote a fictional bookmark manager application. It showcases the app's features, provides download links for browser extensions, and includes a FAQ section to address common inquiries."
             technologies="HTML, Tailwind, JavaScript, Git"
-          />
-          <Card
-            projectImage={focusProjectImage}
-            projectAlt="focus on today project image"
-            projectName="Focus On Today"
-            projectLink="https://vishnufd.github.io/focus-on-today/"
-            projectDetails="The 'Focus On Today' is a web application designed to help users set and track daily goals, promoting productivity and personal growth. The application displays the number of goals completed, motivating users to achieve all their daily objectives.  Inspirational quotes, such as “Move one step ahead, today!”, are displayed to keep users motivated."
-            technologies="HTML, CSS, JavaScript, Git"
           />
         </section>
       </section>
