@@ -26,7 +26,7 @@ const LandingPage = () => {
               animate={{ width: "100%" }}
               transition={{ duration: 2, ease: "easeInOut" }}
             >
-              React Developer.
+              Frontend Developer.
             </motion.h1>
             <p className="my-4 text-[0.8rem] text-[#808080] sm:my-9 sm:text-[1rem]">
               I am a Frontend Developer specializing in React and Redux. I build
